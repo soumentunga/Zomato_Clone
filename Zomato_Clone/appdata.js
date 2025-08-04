@@ -1,4 +1,4 @@
-const restaurants=[
+const restaurants = [
     {
       "image": "third",
       "name": "Fusion Fiesta",
@@ -8,7 +8,7 @@ const restaurants=[
       "location": "Khan Market",
       "Distance_from_Customer_house": "10.6",
       "offers": 25,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 6,
       "Restaurant_close_time": 18
     },
@@ -21,7 +21,7 @@ const restaurants=[
       "location": "Saket",
       "Distance_from_Customer_house": "5.6",
       "offers": 28,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 11,
       "Restaurant_close_time": 23
     },
@@ -34,7 +34,7 @@ const restaurants=[
       "location": "Dwarka",
       "Distance_from_Customer_house": "8.8",
       "offers": 22,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 3,
       "Restaurant_close_time": 15
     },
@@ -47,7 +47,7 @@ const restaurants=[
       "location": "Saket",
       "Distance_from_Customer_house": "2.1",
       "offers": 20,
-      "alcholol": true,
+      "alcohol": true,
       "Restaurant_open_time": 6,
       "Restaurant_close_time": 18
     },
@@ -60,7 +60,7 @@ const restaurants=[
       "location": "Chandni Chowk",
       "Distance_from_Customer_house": "4.0",
       "offers": 12,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 15,
       "Restaurant_close_time": 3
     },
@@ -73,7 +73,7 @@ const restaurants=[
       "location": "Khan Market",
       "Distance_from_Customer_house": "3.8",
       "offers": 12,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 4,
       "Restaurant_close_time": 16
     },
@@ -86,7 +86,7 @@ const restaurants=[
       "location": "Chandni Chowk",
       "Distance_from_Customer_house": "2.0",
       "offers": 20,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 13,
       "Restaurant_close_time": 1
     },
@@ -99,7 +99,7 @@ const restaurants=[
       "location": "Saket",
       "Distance_from_Customer_house": "5.2",
       "offers": 28,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 7,
       "Restaurant_close_time": 19
     },
@@ -112,7 +112,7 @@ const restaurants=[
       "location": "Connaught Place",
       "Distance_from_Customer_house": "8.3",
       "offers": 27,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 16,
       "Restaurant_close_time": 4
     },
@@ -125,7 +125,7 @@ const restaurants=[
       "location": "Rajouri Garden",
       "Distance_from_Customer_house": "4.4",
       "offers": 11,
-      "alcholol": true,
+      "alcohol": true,
       "Restaurant_open_time": 13,
       "Restaurant_close_time": 1
     },
@@ -138,7 +138,7 @@ const restaurants=[
       "location": "Hauz Khas Village",
       "Distance_from_Customer_house": "7.8",
       "offers": 19,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 15,
       "Restaurant_close_time": 3
     },
@@ -151,7 +151,7 @@ const restaurants=[
       "location": "Saket",
       "Distance_from_Customer_house": "5.5",
       "offers": 10,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 1,
       "Restaurant_close_time": 13
     },
@@ -164,7 +164,7 @@ const restaurants=[
       "location": "Connaught Place",
       "Distance_from_Customer_house": "7.8",
       "offers": 5,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 22,
       "Restaurant_close_time": 10
     },
@@ -177,7 +177,7 @@ const restaurants=[
       "location": "Connaught Place",
       "Distance_from_Customer_house": "1.2",
       "offers": 13,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 21,
       "Restaurant_close_time": 9
     },
@@ -190,7 +190,7 @@ const restaurants=[
       "location": "Saket",
       "Distance_from_Customer_house": "1.5",
       "offers": 4,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 5,
       "Restaurant_close_time": 17
     },
@@ -203,7 +203,7 @@ const restaurants=[
       "location": "Vasant Kunj",
       "Distance_from_Customer_house": "1.1",
       "offers": 5,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 19,
       "Restaurant_close_time": 7
     },
@@ -216,7 +216,7 @@ const restaurants=[
       "location": "Rajouri Garden",
       "Distance_from_Customer_house": "9.8",
       "offers": 24,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 16,
       "Restaurant_close_time": 4
     },
@@ -229,7 +229,7 @@ const restaurants=[
       "location": "Lajpat Nagar",
       "Distance_from_Customer_house": "8.8",
       "offers": 29,
-      "alcholol": false,
+      "alcohol": false,
       "Restaurant_open_time": 9,
       "Restaurant_close_time": 21
     },
@@ -242,7 +242,7 @@ const restaurants=[
       "location": "Connaught Place",
       "Distance_from_Customer_house": "1.2",
       "offers": 0,
-      "alcholol": true,
+      "alcohol": true,
       "Restaurant_open_time": 3,
       "Restaurant_close_time": 15
     },
@@ -255,1159 +255,291 @@ const restaurants=[
       "location": "Karol Bagh",
       "Distance_from_Customer_house": "6.6",
       "offers": 20,
-      "alcholol": true,
+      "alcohol": true,
       "Restaurant_open_time": 22,
       "Restaurant_close_time": 10
-    },
-    {
-      "image": "seventh",
-      "name": "The Gourmet Haven",
-      "rating": 2,
-      "food_type": "American",
-      "Price_for_two": 2367,
-      "location": "Khan Market",
-      "Distance_from_Customer_house": "3.4",
-      "offers": 18,
-      "alcholol": true,
-      "Restaurant_open_time": 10,
-      "Restaurant_close_time": 22
-    },
-    {
-      "image": "sixth",
-      "name": "Pasta Paradise",
-      "rating": 1,
-      "food_type": "Japanese",
-      "Price_for_two": 143,
-      "location": "Hauz Khas Village",
-      "Distance_from_Customer_house": "1.8",
-      "offers": 16,
-      "alcholol": true,
-      "Restaurant_open_time": 3,
-      "Restaurant_close_time": 15
-    },
-    {
-      "image": "seventh",
-      "name": "Golden Wok",
-      "rating": 3,
-      "food_type": "Thai",
-      "Price_for_two": 1685,
-      "location": "Vasant Kunj",
-      "Distance_from_Customer_house": "9.8",
-      "offers": 0,
-      "alcholol": true,
-      "Restaurant_open_time": 0,
-      "Restaurant_close_time": 12
-    },
-    {
-      "image": "third",
-      "name": "Ocean Delights",
-      "rating": 4,
-      "food_type": "American",
-      "Price_for_two": 1888,
-      "location": "Hauz Khas Village",
-      "Distance_from_Customer_house": "4.8",
-      "offers": 21,
-      "alcholol": false,
-      "Restaurant_open_time": 18,
-      "Restaurant_close_time": 6
-    },
-    {
-      "image": "tenth",
-      "name": "Urban Bites",
-      "rating": 5,
-      "food_type": "Mediterranean",
-      "Price_for_two": 2479,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "6.7",
-      "offers": 20,
-      "alcholol": true,
-      "Restaurant_open_time": 17,
-      "Restaurant_close_time": 5
-    },
-    {
-      "image": "nine",
-      "name": "Farm to Table",
-      "rating": 3,
-      "food_type": "Indian",
-      "Price_for_two": 2493,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "1.9",
-      "offers": 17,
-      "alcholol": false,
-      "Restaurant_open_time": 15,
-      "Restaurant_close_time": 3
-    },
-    {
-      "image": "second",
-      "name": "Farm to Table",
-      "rating": 5,
-      "food_type": "Italian",
-      "Price_for_two": 912,
-      "location": "Khan Market",
-      "Distance_from_Customer_house": "7.7",
-      "offers": 19,
-      "alcholol": true,
-      "Restaurant_open_time": 13,
-      "Restaurant_close_time": 1
-    },
-    {
-      "image": "fourth",
-      "name": "Farm to Table",
-      "rating": 3,
-      "food_type": "Thai",
-      "Price_for_two": 2202,
-      "location": "Saket",
-      "Distance_from_Customer_house": "5.6",
-      "offers": 6,
-      "alcholol": false,
-      "Restaurant_open_time": 12,
-      "Restaurant_close_time": 0
-    },
-    {
-      "image": "seventh",
-      "name": "The Gourmet Haven",
-      "rating": 4,
-      "food_type": "Mediterranean",
-      "Price_for_two": 178,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "6.3",
-      "offers": 6,
-      "alcholol": false,
-      "Restaurant_open_time": 2,
-      "Restaurant_close_time": 14
-    },
-    {
-      "image": "fifth",
-      "name": "The Rustic Table",
-      "rating": 1,
-      "food_type": "Korean",
-      "Price_for_two": 1864,
-      "location": "Karol Bagh",
-      "Distance_from_Customer_house": "8.7",
-      "offers": 7,
-      "alcholol": false,
-      "Restaurant_open_time": 8,
-      "Restaurant_close_time": 20
-    },
-    {
-      "image": "nine",
-      "name": "Ocean Delights",
-      "rating": 2,
-      "food_type": "French",
-      "Price_for_two": 789,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "1.7",
-      "offers": 0,
-      "alcholol": false,
-      "Restaurant_open_time": 11,
-      "Restaurant_close_time": 23
-    },
-    {
-      "image": "nine",
-      "name": "Sushi Spot",
-      "rating": 3,
-      "food_type": "Thai",
-      "Price_for_two": 878,
-      "location": "Vasant Kunj",
-      "Distance_from_Customer_house": "10.8",
-      "offers": 28,
-      "alcholol": true,
-      "Restaurant_open_time": 9,
-      "Restaurant_close_time": 21
-    },
-    {
-      "image": "third",
-      "name": "Ocean Delights",
-      "rating": 5,
-      "food_type": "Italian",
-      "Price_for_two": 1948,
-      "location": "Karol Bagh",
-      "Distance_from_Customer_house": "1.6",
-      "offers": 6,
-      "alcholol": true,
-      "Restaurant_open_time": 23,
-      "Restaurant_close_time": 11
-    },
-    {
-      "image": "fourth",
-      "name": "The Chocolate Box",
-      "rating": 2,
-      "food_type": "Indian",
-      "Price_for_two": 883,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "5.5",
-      "offers": 3,
-      "alcholol": true,
-      "Restaurant_open_time": 12,
-      "Restaurant_close_time": 0
-    },
-    {
-      "image": "third",
-      "name": "The Chocolate Box",
-      "rating": 2,
-      "food_type": "Mediterranean",
-      "Price_for_two": 2445,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "9.6",
-      "offers": 28,
-      "alcholol": false,
-      "Restaurant_open_time": 21,
-      "Restaurant_close_time": 9
-    },
-    {
-      "image": "sixth",
-      "name": "Ocean Delights",
-      "rating": 2,
-      "food_type": "Korean",
-      "Price_for_two": 2329,
-      "location": "Vasant Kunj",
-      "Distance_from_Customer_house": "3.3",
-      "offers": 2,
-      "alcholol": true,
-      "Restaurant_open_time": 10,
-      "Restaurant_close_time": 22
-    },
-    {
-      "image": "nine",
-      "name": "Farm to Table",
-      "rating": 5,
-      "food_type": "French",
-      "Price_for_two": 1124,
-      "location": "Rajouri Garden",
-      "Distance_from_Customer_house": "5.1",
-      "offers": 8,
-      "alcholol": true,
-      "Restaurant_open_time": 10,
-      "Restaurant_close_time": 22
-    },
-    {
-      "image": "tenth",
-      "name": "Savory Street",
-      "rating": 1,
-      "food_type": "French",
-      "Price_for_two": 1322,
-      "location": "Dwarka",
-      "Distance_from_Customer_house": "2.8",
-      "offers": 25,
-      "alcholol": false,
-      "Restaurant_open_time": 17,
-      "Restaurant_close_time": 5
-    },
-    {
-      "image": "tenth",
-      "name": "Savory Street",
-      "rating": 2,
-      "food_type": "Italian",
-      "Price_for_two": 2491,
-      "location": "Khan Market",
-      "Distance_from_Customer_house": "9.6",
-      "offers": 2,
-      "alcholol": false,
-      "Restaurant_open_time": 19,
-      "Restaurant_close_time": 7
-    },
-    {
-      "image": "fourth",
-      "name": "The Cozy Corner",
-      "rating": 3,
-      "food_type": "Mexican",
-      "Price_for_two": 1150,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "1.9",
-      "offers": 3,
-      "alcholol": true,
-      "Restaurant_open_time": 23,
-      "Restaurant_close_time": 11
-    },
-    {
-      "image": "third",
-      "name": "The Rustic Table",
-      "rating": 5,
-      "food_type": "Chinese",
-      "Price_for_two": 1783,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "7.6",
-      "offers": 8,
-      "alcholol": true,
-      "Restaurant_open_time": 17,
-      "Restaurant_close_time": 5
-    },
-    {
-      "image": "seventh",
-      "name": "The Green Plate",
-      "rating": 1,
-      "food_type": "Korean",
-      "Price_for_two": 2030,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "2.3",
-      "offers": 19,
-      "alcholol": true,
-      "Restaurant_open_time": 17,
-      "Restaurant_close_time": 5
-    },
-    {
-      "image": "seventh",
-      "name": "Fusion Fiesta",
-      "rating": 4,
-      "food_type": "American",
-      "Price_for_two": 2299,
-      "location": "Dwarka",
-      "Distance_from_Customer_house": "5.3",
-      "offers": 3,
-      "alcholol": false,
-      "Restaurant_open_time": 4,
-      "Restaurant_close_time": 16
-    },
-    {
-      "image": "sixth",
-      "name": "Urban Bites",
-      "rating": 2,
-      "food_type": "Korean",
-      "Price_for_two": 1033,
-      "location": "Dwarka",
-      "Distance_from_Customer_house": "7.0",
-      "offers": 14,
-      "alcholol": true,
-      "Restaurant_open_time": 17,
-      "Restaurant_close_time": 5
-    },
-    {
-      "image": "nine",
-      "name": "The Cozy Corner",
-      "rating": 5,
-      "food_type": "Chinese",
-      "Price_for_two": 747,
-      "location": "Khan Market",
-      "Distance_from_Customer_house": "7.3",
-      "offers": 20,
-      "alcholol": false,
-      "Restaurant_open_time": 15,
-      "Restaurant_close_time": 3
-    },
-    {
-      "image": "tenth",
-      "name": "Mediterranean Magic",
-      "rating": 1,
-      "food_type": "Japanese",
-      "Price_for_two": 2136,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "5.2",
-      "offers": 11,
-      "alcholol": false,
-      "Restaurant_open_time": 19,
-      "Restaurant_close_time": 7
-    },
-    {
-      "image": "seventh",
-      "name": "Street Eats",
-      "rating": 4,
-      "food_type": "Mediterranean",
-      "Price_for_two": 315,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "9.8",
-      "offers": 17,
-      "alcholol": false,
-      "Restaurant_open_time": 1,
-      "Restaurant_close_time": 13
-    },
-    {
-      "image": "nine",
-      "name": "Burger Bliss",
-      "rating": 5,
-      "food_type": "Italian",
-      "Price_for_two": 159,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "1.6",
-      "offers": 4,
-      "alcholol": false,
-      "Restaurant_open_time": 6,
-      "Restaurant_close_time": 18
-    },
-    {
-      "image": "third",
-      "name": "Spice Symphony",
-      "rating": 5,
-      "food_type": "French",
-      "Price_for_two": 1535,
-      "location": "Karol Bagh",
-      "Distance_from_Customer_house": "9.6",
-      "offers": 4,
-      "alcholol": false,
-      "Restaurant_open_time": 13,
-      "Restaurant_close_time": 1
-    },
-    {
-      "image": "nine",
-      "name": "Bistro Bliss",
-      "rating": 4,
-      "food_type": "American",
-      "Price_for_two": 782,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "2.9",
-      "offers": 3,
-      "alcholol": false,
-      "Restaurant_open_time": 18,
-      "Restaurant_close_time": 6
-    },
-    {
-      "image": "sixth",
-      "name": "Farm to Table",
-      "rating": 5,
-      "food_type": "Mexican",
-      "Price_for_two": 448,
-      "location": "Saket",
-      "Distance_from_Customer_house": "8.4",
-      "offers": 29,
-      "alcholol": true,
-      "Restaurant_open_time": 15,
-      "Restaurant_close_time": 3
-    },
-    {
-      "image": "fifth",
-      "name": "Spice Symphony",
-      "rating": 1,
-      "food_type": "Mexican",
-      "Price_for_two": 2423,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "5.1",
-      "offers": 7,
-      "alcholol": true,
-      "Restaurant_open_time": 12,
-      "Restaurant_close_time": 0
-    },
-    {
-      "image": "third",
-      "name": "Mediterranean Magic",
-      "rating": 4,
-      "food_type": "Mexican",
-      "Price_for_two": 1734,
-      "location": "Saket",
-      "Distance_from_Customer_house": "8.8",
-      "offers": 27,
-      "alcholol": true,
-      "Restaurant_open_time": 19,
-      "Restaurant_close_time": 7
-    },
-    {
-      "image": "First",
-      "name": "Sushi Spot",
-      "rating": 1,
-      "food_type": "Thai",
-      "Price_for_two": 341,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "10.7",
-      "offers": 24,
-      "alcholol": true,
-      "Restaurant_open_time": 6,
-      "Restaurant_close_time": 18
-    },
-    {
-      "image": "fifth",
-      "name": "Spice Symphony",
-      "rating": 3,
-      "food_type": "French",
-      "Price_for_two": 2400,
-      "location": "Rajouri Garden",
-      "Distance_from_Customer_house": "5.6",
-      "offers": 6,
-      "alcholol": false,
-      "Restaurant_open_time": 11,
-      "Restaurant_close_time": 23
-    },
-    {
-      "image": "nine",
-      "name": "Fusion Fiesta",
-      "rating": 3,
-      "food_type": "Chinese",
-      "Price_for_two": 1230,
-      "location": "Khan Market",
-      "Distance_from_Customer_house": "2.3",
-      "offers": 7,
-      "alcholol": false,
-      "Restaurant_open_time": 18,
-      "Restaurant_close_time": 6
-    },
-    {
-      "image": "seventh",
-      "name": "Savory Street",
-      "rating": 1,
-      "food_type": "Korean",
-      "Price_for_two": 1141,
-      "location": "Saket",
-      "Distance_from_Customer_house": "4.8",
-      "offers": 6,
-      "alcholol": false,
-      "Restaurant_open_time": 13,
-      "Restaurant_close_time": 1
-    },
-    {
-      "image": "Eigth",
-      "name": "Urban Bites",
-      "rating": 5,
-      "food_type": "Mexican",
-      "Price_for_two": 2343,
-      "location": "Vasant Kunj",
-      "Distance_from_Customer_house": "9.2",
-      "offers": 18,
-      "alcholol": false,
-      "Restaurant_open_time": 14,
-      "Restaurant_close_time": 2
-    },
-    {
-      "image": "seventh",
-      "name": "Fusion Fiesta",
-      "rating": 1,
-      "food_type": "Mediterranean",
-      "Price_for_two": 2429,
-      "location": "Dwarka",
-      "Distance_from_Customer_house": "11.0",
-      "offers": 18,
-      "alcholol": false,
-      "Restaurant_open_time": 7,
-      "Restaurant_close_time": 19
-    },
-    {
-      "image": "third",
-      "name": "Mediterranean Magic",
-      "rating": 1,
-      "food_type": "French",
-      "Price_for_two": 2112,
-      "location": "Khan Market",
-      "Distance_from_Customer_house": "5.1",
-      "offers": 18,
-      "alcholol": false,
-      "Restaurant_open_time": 18,
-      "Restaurant_close_time": 6
-    },
-    {
-      "image": "Eigth",
-      "name": "Street Eats",
-      "rating": 4,
-      "food_type": "American",
-      "Price_for_two": 854,
-      "location": "Hauz Khas Village",
-      "Distance_from_Customer_house": "3.0",
-      "offers": 27,
-      "alcholol": false,
-      "Restaurant_open_time": 21,
-      "Restaurant_close_time": 9
-    },
-    {
-      "image": "First",
-      "name": "Burger Bliss",
-      "rating": 5,
-      "food_type": "Korean",
-      "Price_for_two": 300,
-      "location": "Saket",
-      "Distance_from_Customer_house": "9.0",
-      "offers": 26,
-      "alcholol": false,
-      "Restaurant_open_time": 18,
-      "Restaurant_close_time": 6
-    },
-    {
-      "image": "sixth",
-      "name": "Spice Symphony",
-      "rating": 3,
-      "food_type": "Korean",
-      "Price_for_two": 1986,
-      "location": "Karol Bagh",
-      "Distance_from_Customer_house": "10.8",
-      "offers": 14,
-      "alcholol": true,
-      "Restaurant_open_time": 12,
-      "Restaurant_close_time": 0
-    },
-    {
-      "image": "fifth",
-      "name": "Mediterranean Magic",
-      "rating": 3,
-      "food_type": "Chinese",
-      "Price_for_two": 2472,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "5.3",
-      "offers": 29,
-      "alcholol": false,
-      "Restaurant_open_time": 10,
-      "Restaurant_close_time": 22
-    },
-    {
-      "image": "third",
-      "name": "Street Eats",
-      "rating": 2,
-      "food_type": "Thai",
-      "Price_for_two": 660,
-      "location": "Saket",
-      "Distance_from_Customer_house": "5.6",
-      "offers": 18,
-      "alcholol": false,
-      "Restaurant_open_time": 8,
-      "Restaurant_close_time": 20
-    },
-    {
-      "image": "second",
-      "name": "Spice Symphony",
-      "rating": 5,
-      "food_type": "Thai",
-      "Price_for_two": 1193,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "4.1",
-      "offers": 15,
-      "alcholol": true,
-      "Restaurant_open_time": 22,
-      "Restaurant_close_time": 10
-    },
-    {
-      "image": "seventh",
-      "name": "Urban Bites",
-      "rating": 5,
-      "food_type": "Korean",
-      "Price_for_two": 903,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "8.2",
-      "offers": 3,
-      "alcholol": true,
-      "Restaurant_open_time": 3,
-      "Restaurant_close_time": 15
-    },
-    {
-      "image": "seventh",
-      "name": "Pasta Paradise",
-      "rating": 4,
-      "food_type": "Chinese",
-      "Price_for_two": 1047,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "8.3",
-      "offers": 26,
-      "alcholol": false,
-      "Restaurant_open_time": 8,
-      "Restaurant_close_time": 20
-    },
-    {
-      "image": "second",
-      "name": "The Green Plate",
-      "rating": 1,
-      "food_type": "Thai",
-      "Price_for_two": 1110,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "9.5",
-      "offers": 20,
-      "alcholol": false,
-      "Restaurant_open_time": 4,
-      "Restaurant_close_time": 16
-    },
-    {
-      "image": "second",
-      "name": "Sunset Grill",
-      "rating": 4,
-      "food_type": "Mexican",
-      "Price_for_two": 1062,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "6.7",
-      "offers": 3,
-      "alcholol": false,
-      "Restaurant_open_time": 1,
-      "Restaurant_close_time": 13
-    },
-    {
-      "image": "nine",
-      "name": "The Gourmet Haven",
-      "rating": 5,
-      "food_type": "Italian",
-      "Price_for_two": 231,
-      "location": "Karol Bagh",
-      "Distance_from_Customer_house": "2.5",
-      "offers": 19,
-      "alcholol": true,
-      "Restaurant_open_time": 12,
-      "Restaurant_close_time": 0
-    },
-    {
-      "image": "nine",
-      "name": "Savory Street",
-      "rating": 1,
-      "food_type": "Mexican",
-      "Price_for_two": 1013,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "6.2",
-      "offers": 21,
-      "alcholol": false,
-      "Restaurant_open_time": 7,
-      "Restaurant_close_time": 19
-    },
-    {
-      "image": "fourth",
-      "name": "Sushi Spot",
-      "rating": 4,
-      "food_type": "Indian",
-      "Price_for_two": 995,
-      "location": "Vasant Kunj",
-      "Distance_from_Customer_house": "9.2",
-      "offers": 25,
-      "alcholol": false,
-      "Restaurant_open_time": 13,
-      "Restaurant_close_time": 1
-    },
-    {
-      "image": "fourth",
-      "name": "Savory Street",
-      "rating": 3,
-      "food_type": "French",
-      "Price_for_two": 987,
-      "location": "Dwarka",
-      "Distance_from_Customer_house": "6.6",
-      "offers": 10,
-      "alcholol": false,
-      "Restaurant_open_time": 2,
-      "Restaurant_close_time": 14
-    },
-    {
-      "image": "fifth",
-      "name": "Farm to Table",
-      "rating": 5,
-      "food_type": "Japanese",
-      "Price_for_two": 110,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "5.7",
-      "offers": 29,
-      "alcholol": false,
-      "Restaurant_open_time": 22,
-      "Restaurant_close_time": 10
-    },
-    {
-      "image": "third",
-      "name": "Ocean Delights",
-      "rating": 5,
-      "food_type": "Indian",
-      "Price_for_two": 722,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "8.1",
-      "offers": 18,
-      "alcholol": false,
-      "Restaurant_open_time": 8,
-      "Restaurant_close_time": 20
-    },
-    {
-      "image": "tenth",
-      "name": "Sunset Grill",
-      "rating": 3,
-      "food_type": "Italian",
-      "Price_for_two": 2350,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "7.1",
-      "offers": 16,
-      "alcholol": false,
-      "Restaurant_open_time": 8,
-      "Restaurant_close_time": 20
-    },
-    {
-      "image": "sixth",
-      "name": "Urban Bites",
-      "rating": 1,
-      "food_type": "Italian",
-      "Price_for_two": 261,
-      "location": "Vasant Kunj",
-      "Distance_from_Customer_house": "2.2",
-      "offers": 27,
-      "alcholol": false,
-      "Restaurant_open_time": 8,
-      "Restaurant_close_time": 20
-    },
-    {
-      "image": "fourth",
-      "name": "The Rustic Table",
-      "rating": 1,
-      "food_type": "Mexican",
-      "Price_for_two": 701,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "1.7",
-      "offers": 21,
-      "alcholol": false,
-      "Restaurant_open_time": 6,
-      "Restaurant_close_time": 18
-    },
-    {
-      "image": "Eigth",
-      "name": "The Green Plate",
-      "rating": 2,
-      "food_type": "French",
-      "Price_for_two": 300,
-      "location": "Hauz Khas Village",
-      "Distance_from_Customer_house": "6.3",
-      "offers": 17,
-      "alcholol": true,
-      "Restaurant_open_time": 17,
-      "Restaurant_close_time": 5
-    },
-    {
-      "image": "First",
-      "name": "Street Eats",
-      "rating": 2,
-      "food_type": "American",
-      "Price_for_two": 278,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "6.4",
-      "offers": 23,
-      "alcholol": true,
-      "Restaurant_open_time": 21,
-      "Restaurant_close_time": 9
-    },
-    {
-      "image": "second",
-      "name": "The Cozy Corner",
-      "rating": 1,
-      "food_type": "American",
-      "Price_for_two": 1479,
-      "location": "Saket",
-      "Distance_from_Customer_house": "2.6",
-      "offers": 18,
-      "alcholol": false,
-      "Restaurant_open_time": 0,
-      "Restaurant_close_time": 12
-    },
-    {
-      "image": "second",
-      "name": "Sushi Spot",
-      "rating": 1,
-      "food_type": "Thai",
-      "Price_for_two": 890,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "9.8",
-      "offers": 13,
-      "alcholol": false,
-      "Restaurant_open_time": 2,
-      "Restaurant_close_time": 14
-    },
-    {
-      "image": "sixth",
-      "name": "Burger Bliss",
-      "rating": 2,
-      "food_type": "Mediterranean",
-      "Price_for_two": 753,
-      "location": "Chandni Chowk",
-      "Distance_from_Customer_house": "1.5",
-      "offers": 21,
-      "alcholol": false,
-      "Restaurant_open_time": 19,
-      "Restaurant_close_time": 7
-    },
-    {
-      "image": "First",
-      "name": "The Gourmet Haven",
-      "rating": 5,
-      "food_type": "Italian",
-      "Price_for_two": 2317,
-      "location": "Khan Market",
-      "Distance_from_Customer_house": "10.7",
-      "offers": 3,
-      "alcholol": false,
-      "Restaurant_open_time": 12,
-      "Restaurant_close_time": 0
-    },
-    {
-      "image": "Eigth",
-      "name": "Street Eats",
-      "rating": 4,
-      "food_type": "Japanese",
-      "Price_for_two": 1333,
-      "location": "Hauz Khas Village",
-      "Distance_from_Customer_house": "5.6",
-      "offers": 22,
-      "alcholol": false,
-      "Restaurant_open_time": 7,
-      "Restaurant_close_time": 19
-    },
-    {
-      "image": "First",
-      "name": "The Gourmet Haven",
-      "rating": 5,
-      "food_type": "Korean",
-      "Price_for_two": 2295,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "10.4",
-      "offers": 27,
-      "alcholol": false,
-      "Restaurant_open_time": 21,
-      "Restaurant_close_time": 9
-    },
-    {
-      "image": "First",
-      "name": "Pasta Paradise",
-      "rating": 3,
-      "food_type": "Indian",
-      "Price_for_two": 1907,
-      "location": "Saket",
-      "Distance_from_Customer_house": "5.3",
-      "offers": 15,
-      "alcholol": true,
-      "Restaurant_open_time": 5,
-      "Restaurant_close_time": 17
-    },
-    {
-      "image": "nine",
-      "name": "Pasta Paradise",
-      "rating": 4,
-      "food_type": "Italian",
-      "Price_for_two": 1149,
-      "location": "Saket",
-      "Distance_from_Customer_house": "9.7",
-      "offers": 11,
-      "alcholol": false,
-      "Restaurant_open_time": 18,
-      "Restaurant_close_time": 6
-    },
-    {
-      "image": "Eigth",
-      "name": "The Gourmet Haven",
-      "rating": 5,
-      "food_type": "Chinese",
-      "Price_for_two": 203,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "7.2",
-      "offers": 11,
-      "alcholol": false,
-      "Restaurant_open_time": 9,
-      "Restaurant_close_time": 21
-    },
-    {
-      "image": "nine",
-      "name": "Urban Bites",
-      "rating": 3,
-      "food_type": "Thai",
-      "Price_for_two": 1013,
-      "location": "Khan Market",
-      "Distance_from_Customer_house": "9.4",
-      "offers": 24,
-      "alcholol": false,
-      "Restaurant_open_time": 15,
-      "Restaurant_close_time": 3
-    },
-    {
-      "image": "third",
-      "name": "Farm to Table",
-      "rating": 1,
-      "food_type": "Chinese",
-      "Price_for_two": 442,
-      "location": "Rajouri Garden",
-      "Distance_from_Customer_house": "2.2",
-      "offers": 2,
-      "alcholol": false,
-      "Restaurant_open_time": 4,
-      "Restaurant_close_time": 16
-    },
-    {
-      "image": "First",
-      "name": "Sunset Grill",
-      "rating": 1,
-      "food_type": "Italian",
-      "Price_for_two": 1838,
-      "location": "Rajouri Garden",
-      "Distance_from_Customer_house": "4.0",
-      "offers": 0,
-      "alcholol": false,
-      "Restaurant_open_time": 1,
-      "Restaurant_close_time": 13
-    },
-    {
-      "image": "third",
-      "name": "The Chocolate Box",
-      "rating": 3,
-      "food_type": "Italian",
-      "Price_for_two": 1766,
-      "location": "Karol Bagh",
-      "Distance_from_Customer_house": "10.9",
-      "offers": 11,
-      "alcholol": false,
-      "Restaurant_open_time": 15,
-      "Restaurant_close_time": 3
-    },
-    {
-      "image": "First",
-      "name": "Farm to Table",
-      "rating": 3,
-      "food_type": "Italian",
-      "Price_for_two": 1353,
-      "location": "Rajouri Garden",
-      "Distance_from_Customer_house": "9.3",
-      "offers": 6,
-      "alcholol": false,
-      "Restaurant_open_time": 4,
-      "Restaurant_close_time": 16
-    },
-    {
-      "image": "seventh",
-      "name": "Ocean Delights",
-      "rating": 1,
-      "food_type": "French",
-      "Price_for_two": 973,
-      "location": "Saket",
-      "Distance_from_Customer_house": "5.5",
-      "offers": 6,
-      "alcholol": true,
-      "Restaurant_open_time": 0,
-      "Restaurant_close_time": 12
-    },
-    {
-      "image": "third",
-      "name": "Urban Bites",
-      "rating": 3,
-      "food_type": "Korean",
-      "Price_for_two": 286,
-      "location": "Lajpat Nagar",
-      "Distance_from_Customer_house": "6.7",
-      "offers": 25,
-      "alcholol": false,
-      "Restaurant_open_time": 18,
-      "Restaurant_close_time": 6
-    },
-    {
-      "image": "Eigth",
-      "name": "The Green Plate",
-      "rating": 1,
-      "food_type": "Japanese",
-      "Price_for_two": 2096,
-      "location": "Karol Bagh",
-      "Distance_from_Customer_house": "9.5",
-      "offers": 22,
-      "alcholol": true,
-      "Restaurant_open_time": 21,
-      "Restaurant_close_time": 9
-    },
-    {
-      "image": "First",
-      "name": "Street Eats",
-      "rating": 3,
-      "food_type": "Italian",
-      "Price_for_two": 1032,
-      "location": "Karol Bagh",
-      "Distance_from_Customer_house": "7.5",
-      "offers": 7,
-      "alcholol": false,
-      "Restaurant_open_time": 6,
-      "Restaurant_close_time": 18
-    },
-    {
-      "image": "tenth",
-      "name": "Bistro Bliss",
-      "rating": 3,
-      "food_type": "Chinese",
-      "Price_for_two": 585,
-      "location": "Connaught Place",
-      "Distance_from_Customer_house": "7.7",
-      "offers": 8,
-      "alcholol": true,
-      "Restaurant_open_time": 16,
-      "Restaurant_close_time": 4
     }
-  ]
-  // Create a card
-        // 1: Image
-        // 2: Card_content
-    //        i: Card_header (Name and rating)
-    //        ii: Card_footer (Food_type and price)
-    //        iii: card_location (Restaurant location, distance)
+];
 
+// State management
+let currentFilter = 'all';
+let currentSort = 'default';
+let filteredRestaurants = [...restaurants];
 
-  function getrestaurant(restaurants){
+// Utility functions
+function getCurrentTime() {
+    return new Date().getHours();
+}
 
-    const root = document.getElementById('root');
+function isRestaurantOpen(restaurant) {
+    const currentHour = getCurrentTime();
+    const openTime = restaurant.Restaurant_open_time;
+    const closeTime = restaurant.Restaurant_close_time;
+    
+    if (openTime < closeTime) {
+        return currentHour >= openTime && currentHour < closeTime;
+    } else {
+        return currentHour >= openTime || currentHour < closeTime;
+    }
+}
 
-    restaurants.forEach(restaurant => {
-      
-      //card creation 
+function formatPrice(price) {
+    return `₹${price.toLocaleString()} for two`;
+}
+
+function createRestaurantCard(restaurant) {
     const card = document.createElement('div');
-    card.classList.add('card')
-
-    //image Creation 
-    const image=document.createElement('img');
-    image.src=`Images/${restaurant.image}.jpeg`
-
-    //create card Content 
-    const Card_content = document.createElement('div');
-    Card_content.classList.add('card-content');
-
-    //create Card_header
-
-    const Card_header = document.createElement('div');
-    Card_header.classList.add('card-header');
-
-    //name & rating inside the Card_header
-    const h3 =document.createElement('h3');
-    h3.textContent=restaurant.name;
-
-    const rate = document.createElement('span');
-    rate.textContent="Rating :"+restaurant.rating;
-
-    rate.classList.add('rating');
-
-    //SHift Restaurant Name and Rating inside the card-header
-      
-    Card_header.appendChild(h3);
-    Card_header.appendChild(rate);
-
-
-    //Create card footer
-      const Card_footer =document.createElement('div');
-      Card_footer.classList.add('card-footer');
+    card.classList.add('card');
     
-    //create food type and Price for Two
+    const isOpen = isRestaurantOpen(restaurant);
+    
+    card.innerHTML = `
+        <img src="Images/${restaurant.image}.jpeg" alt="${restaurant.name}" loading="lazy">
+        <div class="card-content">
+            <div class="card-header">
+                <h3>${restaurant.name}</h3>
+                <div class="rating rating-${restaurant.rating}">
+                    <i class="fas fa-star"></i>
+                    ${restaurant.rating}
+                </div>
+            </div>
+            <div class="card-footer">
+                <span class="food-type">${restaurant.food_type}</span>
+                <span class="price">${formatPrice(restaurant.Price_for_two)}</span>
+            </div>
+            <div class="card-location">
+                <span class="location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    ${restaurant.location}
+                </span>
+                <span class="distance">
+                    <i class="fas fa-route"></i>
+                    ${restaurant.Distance_from_Customer_house} km
+                </span>
+            </div>
+            <div class="card-badges">
+                ${restaurant.offers > 0 ? `<span class="badge offer">${restaurant.offers}% OFF</span>` : ''}
+                ${restaurant.alcohol ? '<span class="badge alcohol">Serves Alcohol</span>' : ''}
+                <span class="badge ${isOpen ? 'open' : 'closed'}">${isOpen ? 'Open Now' : 'Closed'}</span>
+            </div>
+        </div>
+    `;
+    
+    return card;
+}
 
-    const food = document.createElement('span');
-    food.textContent = restaurant.food_type;
-
-    const price = document.createElement('span');
-    price.textContent = "₹"+restaurant.Price_for_two +"for Two";
-
-    //make food and price inside the Card Footer
-    Card_footer.appendChild(food);
-    Card_footer.appendChild(price);
-
-
-   //Create of Card Location 
-   
-   const card_location= document.createElement('div')
-   card_location.classList.add('card-location')
-
-   //create location and distance from customer 
-
-   const location = document.createElement('span')
-   location.textContent=restaurant.location
-
-   const distance = document.createElement('span')
-   distance.textContent= restaurant.Distance_from_Customer_house + "km"
-  
-  //move location and distance inside the Card_location 
-
-  card_location.appendChild(location)
-  card_location.appendChild(distance)
-
-  //move card header,card footer ,card location inside the card content
-
-  Card_content.append(Card_header,Card_footer,card_location)
-
-  //Move card image and card content inside the card Div
-
-  card.append(image,Card_content)
-
-  //move card inside the root element 
-
-  root.appendChild(card)
-
-
+function renderRestaurants(restaurantList) {
+    const root = document.getElementById('root');
+    const resultsTitle = document.getElementById('resultsTitle');
+    const resultsCount = document.getElementById('resultsCount');
+    const noResults = document.getElementById('noResults');
+    
+    // Clear previous results
+    root.innerHTML = '';
+    
+    if (restaurantList.length === 0) {
+        noResults.classList.remove('hidden');
+        resultsCount.textContent = '0 restaurants found';
+        return;
+    }
+    
+    noResults.classList.add('hidden');
+    
+    // Update results count
+    resultsCount.textContent = `${restaurantList.length} restaurant${restaurantList.length !== 1 ? 's' : ''} found`;
+    
+    // Create and append cards
+    restaurantList.forEach(restaurant => {
+        const card = createRestaurantCard(restaurant);
+        root.appendChild(card);
     });
+}
 
-   
-  }
-
-  getrestaurant(restaurants);
-  
-  document.getElementById("Alcohol").addEventListener('click',()=>{
+function applyFilters() {
+    let filtered = [...restaurants];
     
-    const result = restaurants.filter((obj)=>obj.alcohol);
-    document.getElementById('root').replaceChildren();
-    getrestaurant(result);
+    // Apply current filter
+    switch (currentFilter) {
+        case 'offers':
+            filtered = filtered.filter(r => r.offers > 0);
+            break;
+        case 'rating':
+            filtered = filtered.filter(r => r.rating >= 4);
+            break;
+        case 'alcohol':
+            filtered = filtered.filter(r => r.alcohol);
+            break;
+        case 'open':
+            filtered = filtered.filter(r => isRestaurantOpen(r));
+            break;
+        case 'price':
+            filtered = filtered.filter(r => r.Price_for_two <= 500);
+            break;
+        default:
+            // 'all' - no additional filtering
+            break;
+    }
+    
+    // Apply sorting
+    switch (currentSort) {
+        case 'rating':
+            filtered.sort((a, b) => b.rating - a.rating);
+            break;
+        case 'price-low':
+            filtered.sort((a, b) => a.Price_for_two - b.Price_for_two);
+            break;
+        case 'price-high':
+            filtered.sort((a, b) => b.Price_for_two - a.Price_for_two);
+            break;
+        case 'distance':
+            filtered.sort((a, b) => parseFloat(a.Distance_from_Customer_house) - parseFloat(b.Distance_from_Customer_house));
+            break;
+        default:
+            // Keep original order
+            break;
+    }
+    
+    filteredRestaurants = filtered;
+    renderRestaurants(filtered);
+    updateResultsTitle();
+}
 
-})
+function updateResultsTitle() {
+    const resultsTitle = document.getElementById('resultsTitle');
+    const titles = {
+        'all': 'All Restaurants',
+        'offers': 'Great Offers',
+        'rating': 'Top Rated (4.0+)',
+        'alcohol': 'Serves Alcohol',
+        'open': 'Open Now',
+        'price': 'Budget Friendly (Under ₹500)'
+    };
+    
+    resultsTitle.textContent = titles[currentFilter] || 'All Restaurants';
+}
 
+function updateActiveFilter(activeFilterId) {
+    // Remove active class from all filter chips
+    document.querySelectorAll('.filter-chip').forEach(chip => {
+        chip.classList.remove('active');
+    });
+    
+    // Add active class to current filter
+    document.getElementById(activeFilterId).classList.add('active');
+}
 
-  
+function showLoading() {
+    document.getElementById('loadingSpinner').classList.remove('hidden');
+    document.getElementById('root').style.opacity = '0.5';
+}
+
+function hideLoading() {
+    document.getElementById('loadingSpinner').classList.add('hidden');
+    document.getElementById('root').style.opacity = '1';
+}
+
+function searchRestaurants(query) {
+    if (!query.trim()) {
+        return filteredRestaurants;
+    }
+    
+    const searchTerm = query.toLowerCase();
+    return filteredRestaurants.filter(restaurant => 
+        restaurant.name.toLowerCase().includes(searchTerm) ||
+        restaurant.food_type.toLowerCase().includes(searchTerm) ||
+        restaurant.location.toLowerCase().includes(searchTerm)
+    );
+}
+
+// Event listeners
+document.addEventListener('DOMContentLoaded', function() {
+    // Initial render
+    applyFilters();
+    
+    // Filter event listeners
+    document.getElementById('allRestaurants').addEventListener('click', function() {
+        currentFilter = 'all';
+        updateActiveFilter('allRestaurants');
+        showLoading();
+        setTimeout(() => {
+            applyFilters();
+            hideLoading();
+        }, 300);
+    });
+    
+    document.getElementById('offersFilter').addEventListener('click', function() {
+        currentFilter = 'offers';
+        updateActiveFilter('offersFilter');
+        showLoading();
+        setTimeout(() => {
+            applyFilters();
+            hideLoading();
+        }, 300);
+    });
+    
+    document.getElementById('ratingFilter').addEventListener('click', function() {
+        currentFilter = 'rating';
+        updateActiveFilter('ratingFilter');
+        showLoading();
+        setTimeout(() => {
+            applyFilters();
+            hideLoading();
+        }, 300);
+    });
+    
+    document.getElementById('alcoholFilter').addEventListener('click', function() {
+        currentFilter = 'alcohol';
+        updateActiveFilter('alcoholFilter');
+        showLoading();
+        setTimeout(() => {
+            applyFilters();
+            hideLoading();
+        }, 300);
+    });
+    
+    document.getElementById('openFilter').addEventListener('click', function() {
+        currentFilter = 'open';
+        updateActiveFilter('openFilter');
+        showLoading();
+        setTimeout(() => {
+            applyFilters();
+            hideLoading();
+        }, 300);
+    });
+    
+    document.getElementById('priceFilter').addEventListener('click', function() {
+        currentFilter = 'price';
+        updateActiveFilter('priceFilter');
+        showLoading();
+        setTimeout(() => {
+            applyFilters();
+            hideLoading();
+        }, 300);
+    });
+    
+    // Sort event listener
+    document.getElementById('sortSelect').addEventListener('change', function(e) {
+        currentSort = e.target.value;
+        showLoading();
+        setTimeout(() => {
+            applyFilters();
+            hideLoading();
+        }, 300);
+    });
+    
+    // Search event listener
+    document.getElementById('searchInput').addEventListener('input', function(e) {
+        const searchResults = searchRestaurants(e.target.value);
+        renderRestaurants(searchResults);
+    });
+    
+    // Add some smooth scrolling for better UX
+    document.querySelectorAll('.filter-chip').forEach(chip => {
+        chip.addEventListener('click', function() {
+            document.querySelector('.results-section').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    });
+});

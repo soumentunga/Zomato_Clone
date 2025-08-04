@@ -3,22 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zomato Clone</title>
+    <title>FoodieHub - Discover Great Food</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    
-    <div id="head">
-        <button id="Filters">Filters</button>
-        <button id="Offers">Offers</button>
-        <button id="Rating">Rating 4.5+</button>
-        <button id="Alcohol">Serves Alcohol</button>
-        <button id="Open">Open now</button>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>FoodieHub</span>
+                </div>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search for restaurants, cuisines..." id="searchInput">
+                </div>
+                <div class="header-actions">
+                    <button class="location-btn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Delhi</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filters Section -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-wrapper">
+                <div class="filter-chips">
+                    <button class="filter-chip active" id="allRestaurants">
+                        <i class="fas fa-home"></i>
+                        All Restaurants
+                    </button>
+                    <button class="filter-chip" id="offersFilter">
+                        <i class="fas fa-tags"></i>
+                        Great Offers
+                    </button>
+                    <button class="filter-chip" id="ratingFilter">
+                        <i class="fas fa-star"></i>
+                        Rating 4.0+
+                    </button>
+                    <button class="filter-chip" id="alcoholFilter">
+                        <i class="fas fa-wine-glass"></i>
+                        Serves Alcohol
+                    </button>
+                    <button class="filter-chip" id="openFilter">
+                        <i class="fas fa-clock"></i>
+                        Open Now
+                    </button>
+                    <button class="filter-chip" id="priceFilter">
+                        <i class="fas fa-rupee-sign"></i>
+                        Under ₹500
+                    </button>
+                </div>
+                <div class="sort-dropdown">
+                    <select id="sortSelect">
+                        <option value="default">Sort by</option>
+                        <option value="rating">Rating</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="distance">Distance</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+        <div class="container">
+            <div class="results-header">
+                <h2 id="resultsTitle">All Restaurants</h2>
+                <span id="resultsCount">Loading...</span>
+            </div>
+            <div id="root" class="restaurants-grid"></div>
+        </div>
+    </section>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-spinner hidden">
+        <div class="spinner"></div>
+        <p>Finding great restaurants...</p>
     </div>
 
-    <!-- inside ther root div all card will insert  -->
-    
-    <div id="root"></div>
+    <!-- No Results -->
+    <div id="noResults" class="no-results hidden">
+        <i class="fas fa-search"></i>
+        <h3>No restaurants found</h3>
+        <p>Try adjusting your filters or search criteria</p>
+    </div>
 
     <script src="./appdata.js"></script>
 </body>
